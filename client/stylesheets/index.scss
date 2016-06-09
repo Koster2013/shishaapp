@@ -1,0 +1,25 @@
+// beim ersten ausführen auskommentieren und nach dem bauen des ionic packages wieder einbinden.
+@import 'meteoric_ionic-sass/ionic';
+@import 'meteoric_ionicons-sass/ionicons';
+
+
+/*
+@font-face { font-family: 'chat';
+  src: url('/OldStandard-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'chat';
+  src: url('/OldStandard-Italic.ttf') format('truetype');
+  font-style: italic; }
+@font-face { font-family: 'chat-bold';
+  src: url('/OldStandard-Bold.ttf') format('truetype');
+  font-weight: bold; }
+*/
+
+
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) {
+  height: 64px;
+  margin-top: -20px;
+}
+
+.bonuscard {
+  font-size: 180% !important;
+}

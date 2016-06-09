@@ -1,0 +1,53 @@
+<template name="profile">
+
+    {{#ionBody}}
+        <div class="bar bar-header bar-positive">
+            <a class="button button-positive icon ion-arrow-left-b header-button" href="/"></a>
+
+            <h1 class="title">Bonus Karte</h1>
+        </div>
+
+
+        <div style="padding-top: 20px;">
+
+            <div class="card">
+                <div class="item item-divider">
+                    Shisha Bonus Karte
+                </div>
+                <div class="item item-text-wrap">
+                    Hier können Sie ihre Shisha Bonus Punkte sammeln.
+
+                    <div style="padding-top: 20px;" >
+                        <div class="row bonuscard" >
+
+                            {{#each bonusCodeCount}}
+                                <div class="col">
+                                    <i class="icon ion-star"></i>
+                                </div>
+                            {{/each }}
+                          <!--  <div class="col">
+                                <i class="icon ion-star"></i>
+                            </div>
+                            <div class="col">
+                                <i class="icon ion-star"></i>
+                            </div>
+                            <div class="col">
+                                <i class="icon ion-star"></i>
+                            </div>
+                            <div class="col">
+                                <i class="icon ion-star"></i>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button button-full button-positive" id="barcodeScanButton">
+                    Bonus Code einscannen
+                </div>
+            </div>
+
+        </div>
+
+    {{/ionBody}}
+
+</template>
